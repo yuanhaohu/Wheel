@@ -22,9 +22,9 @@ public class ItemActivity extends Activity{
         wheelView.setItemViewTextSize(30,20);//设置条目字体大小,默认15
         wheelView.setSeletion(0);//默认选择条目
         wheelView.setHaveLine(true);//是否有分隔线,无法和条目背景颜色方法同时设置
-        wheelView.setLineHeight(10);
-        wheelView.setLineWidth(30,30);
-        wheelView.setLineColor(R.color.colorAccent);
+        wheelView.setLineHeight(10);//分隔线高度
+        wheelView.setLineWidth(30,30);//分隔线左右间距
+        wheelView.setLineColor(R.color.colorAccent);//分隔线颜色
         wheelView.setItems(Arrays.asList(temp));//添加数据源吧
 
         wheelView.setOnWheelViewListener(new MyWheelView.OnWheelViewListener() {
