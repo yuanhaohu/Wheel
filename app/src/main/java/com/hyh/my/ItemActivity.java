@@ -17,6 +17,7 @@ public class ItemActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_item);
+
         String temp[] = new String[]{"2","4","6","8","10","12","14","16","18","20"};
         MyWheelView wheelView = (MyWheelView) findViewById(R.id.myWheelView);
         wheelView.setOffset(2);//设置item显示条数2n+1
