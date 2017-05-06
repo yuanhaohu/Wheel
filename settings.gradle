@@ -1,1 +1,1 @@
-include ':app', ':wheelview', ':mylibrary'
+include ':app', ':wheelview'

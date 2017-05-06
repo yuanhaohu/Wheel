@@ -25,4 +25,15 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile project(path: ':wheelview')
+//    compile 'com.github.yuanhaohu:Wheel:v1.1'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://jitpack.io"
+
+        }
+    }
 }
