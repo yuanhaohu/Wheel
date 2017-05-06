@@ -1,4 +1,4 @@
-package com.hyh.mywheelview;
+package com.hyh.my;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

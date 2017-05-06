@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.hyh.mywheelview.MyWheelView
+            <com.hyh.myvheelview.MyWheelView
                 android:id="@+id/wheelView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
