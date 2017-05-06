@@ -21,7 +21,6 @@ android {
 }
 
 dependencies {
-    //    compile project(':wheelview')
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
     compile project(path: ':wheelview')
